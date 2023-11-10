@@ -1,6 +1,6 @@
 {
   "name": "time-line-choice",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "main":"lib/comp.umd.min.js",
   "scripts": {
