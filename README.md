@@ -1,7 +1,36 @@
-# demo
+<!--
+ * @Author: zhangpengwei@1338418459736990.onaliyun.com zhangpengwei@1338418459736990.onaliyun.com
+ * @Date: 2023-03-15 22:29:25
+ * @LastEditors: zhangpengwei@1338418459736990.onaliyun.com zhangpengwei@1338418459736990.onaliyun.com
+ * @LastEditTime: 2023-11-10 18:48:30
+ * @FilePath: /element-timeline-master/README.md
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
+### install
+```
+npm install time-line-choice 
 
+or
 
-[预览地址](https://github.com/fishb/element-timeline)
+yarn add time-line-choice
+
+```
+
+### use
+全局注册
+```
+import { TimeLineChoice } from time-line-choice
+vue.use(TimeLineChoice)
+```
+
+按需引入
+```
+import { TimeLineChoice } from time-line-choice
+
+    components: {
+        TimeLineChoice
+    }
+```
 
 ### Attributes
 属性 | 属性名 | 是否必填 | 默认值 | 类型
